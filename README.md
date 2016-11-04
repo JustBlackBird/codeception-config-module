@@ -1,5 +1,7 @@
 # Codeception Config Module
 
+[![Build Status](https://travis-ci.org/JustBlackBird/codeception-config-module.svg)](https://travis-ci.org/JustBlackBird/codeception-config-module)
+
 ## Usage
 
 ```php
