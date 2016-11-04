@@ -1,0 +1,36 @@
+{
+    "name": "justblackbird/codeception-config-module",
+    "version": "1.0.0",
+    "description": "Loads params from config into codeception scenarios.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Simushev",
+            "email": "simushevds@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/JustBlackBird/codeception-config-module/issues",
+        "source": "https://github.com/JustBlackBird/codeception-config-module"
+    },
+    "require": {
+        "php": ">=5.4.0 <8.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.2",
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Module\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "phpunit",
+            "phpcs --standard=PSR2 src/ tests/"
+        ]
+    }
+}
