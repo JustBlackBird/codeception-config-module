@@ -10,12 +10,12 @@
 Add the package into your composer.json:
 
 ```json
-    {
-        "require-dev": {
-            "codeception/codeception": "^2.2",
-            "justblackbird/codeception-config-module": "^1.0"
-        }
+{
+    "require-dev": {
+        "codeception/codeception": "^2.2",
+        "justblackbird/codeception-config-module": "^1.0"
     }
+}
 ```
 
 Update the dependencies to download the package:
