@@ -1,5 +1,5 @@
 {
-    "name": "justblackbird/codeception-config-module",
+    "name": "lerazybin/codeception-config-module",
     "version": "1.0.0",
     "description": "Loads params from config into codeception scenarios.",
     "type": "library",
