@@ -15,7 +15,7 @@
         "source": "https://github.com/JustBlackBird/codeception-config-module"
     },
     "require": {
-        "php": ">=5.4.0 <8.0"
+        "php": "^8.0"
     },
     "require-dev": {
         "codeception/codeception": "^2.2",
