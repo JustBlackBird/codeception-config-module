@@ -12,13 +12,13 @@
     ],
     "support": {
         "issues": "https://github.com/JustBlackBird/codeception-config-module/issues",
-        "source": "https://github.com/JustBlackBird/codeception-config-module"
+        "source": "https://github.com/LeraZybin/codeception-config-module"
     },
     "require": {
         "php": "^8.0"
     },
     "require-dev": {
-        "codeception/codeception": "^2.2",
+        "codeception/codeception": "^4.0",
         "phpunit/phpunit": "^4.8",
         "squizlabs/php_codesniffer": "^2.7"
     },
